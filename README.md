@@ -15,10 +15,14 @@
 FontEnd : HTML, CSS, JavaScript
 
 6. 화면 구현 장면
-**1)**
-![image](https://github.com/Eomhyein/movie_search/assets/26666131/71db0f8c-2f2e-4889-b13c-8e336149488b)
+**1)** 메인화면 UI
+![image](https://github.com/Eomhyein/movie_search/assets/26666131/6da1507f-670f-480e-a19f-84d082f3b2da)
+
 **2)** 포스터 명을 쓰고 검색 클릭시 일치하는 데이터를 보여준다.
-![image](https://github.com/Eomhyein/movie_search/assets/26666131/7884b36a-a93c-4762-ae85-4cd3bd3fff02)
+![image](https://github.com/Eomhyein/movie_search/assets/26666131/747607ee-60c5-46cb-87c2-fb8c3e4aa962)
+
+**3)** 포스터를 클릭하면 id값이 뜬다
+![image](https://github.com/Eomhyein/movie_search/assets/26666131/86f88749-d2b5-4c3e-87e3-4b1b07460ba5)
 
 7. 구현 요구사항
 1) TMDB 오픈 API 영화 정보 불러오기
