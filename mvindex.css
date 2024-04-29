@@ -1,0 +1,110 @@
+body {
+  background-color: #220A29;
+  margin: 0;
+  padding: 0;
+}
+
+/*맨위에 해더부분, 로고, 검색상자*/
+.movie_title {
+  width: 100%;
+  color: white;
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-box {
+  width: 60%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.search-box > img {
+  width: auto;
+  height: 55px;
+}
+.search-box input {
+  width: 60%;
+  height: 100%;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #220A29;
+  font-weight: 500;
+  padding: 0 20px 0 20px;
+}
+.search-box input::placeholder {
+  color: gray;
+  text-transform: capitalize;
+}
+.search-box button {
+  width: 40px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/*타이틀 팝콘튀는 영화 수집가*/
+.section_1 {
+  background-image: url(./image/02_popcorn.jpg);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_1 .title {
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+
+
+
+/*영화 포스터 나오는 카드부분*/
+.section_2 {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+}
+/*
+.row{
+  background-color: white;
+}
+*/
+.movie_poster {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.movie_poster > img{
+  width:100%;
+}
+
+.id_secret {
+  display: none;
+}
+
+
+/*foorter*/
+.copy {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  background-color: rgb(41, 41, 41);
+}
