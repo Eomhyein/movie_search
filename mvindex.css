@@ -56,6 +56,7 @@ body {
   background-image: url(./image/02_popcorn.jpg);
   margin-top: 30px;
   margin-bottom: 30px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -66,8 +67,6 @@ body {
   padding-bottom: 100px;
   padding-left: 100px;
 }
-
-
 
 /*영화 포스터 나오는 카드부분*/
 .section_2 {
@@ -91,7 +90,6 @@ body {
   cursor: pointer;
   flex-wrap: wrap;
 }
-
 .movie_poster > img{
   width:100%;
 }
