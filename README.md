@@ -15,9 +15,9 @@
 FontEnd : HTML, CSS, JavaScript
 
 6. 화면 구현 장면
-1)
+**1)**
 ![image](https://github.com/Eomhyein/movie_search/assets/26666131/71db0f8c-2f2e-4889-b13c-8e336149488b)
-2) 포스터 명을 쓰고 검색 클릭시 일치하는 데이터를 보여준다.
+**2)** 포스터 명을 쓰고 검색 클릭시 일치하는 데이터를 보여준다.
 ![image](https://github.com/Eomhyein/movie_search/assets/26666131/7884b36a-a93c-4762-ae85-4cd3bd3fff02)
 
 7. 구현 요구사항
