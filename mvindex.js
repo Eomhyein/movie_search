@@ -96,12 +96,13 @@ let process = function (input, json_poster) { //입력한 영화제목과 불러
 // 1. .movie_card, or ,#movie_id를 클릭한다.
 // 2. 클릭시 받아온 영화 id가 alert 창에 보여준다.
 function poster_click () {
-  const node = document.querySelectorAll(".movie_card"); // 유사배열
+  
+  const node = document.querySelectorAll(".movie_poster"); // 유사배열
   const really_node = Array.from(node);
   really_node.forEach(array => {
     array.addEventListener("click", event => {
       const clicked = event.target;
-      const find_id = clicked.closest(".movie_card").querySelector(".id_secret").textContent;
+      const find_id = clicked.closest(".movie_poster").querySelector(".id_secret").textContent;
       alert(find_id);
     })
   })
